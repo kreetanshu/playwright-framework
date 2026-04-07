@@ -5,6 +5,7 @@
         "loginButton": "//input[@id='login-button']"
     },
     "ProductPage" : {
-        
+        "bagPack": "text='Sauce Labs Backpack'",
+        "bagPackPrice": "div.inventory_details_price"
     }
 }
