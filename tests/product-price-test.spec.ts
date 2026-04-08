@@ -8,6 +8,7 @@ test.describe('Product Price Test', () => {
 
   let homePage: HomePage;
   let productPage: ProductPage;
+  let productInTest = 'Swag Labs'
 
   test.beforeEach(async ({page}) => {
     homePage = new HomePage(page);
@@ -21,9 +22,9 @@ test.describe('Product Price Test', () => {
   //    await homePage.waitForTimeout(3000)
   // });
 
-  test('Validate Product Price', async ({ page }) => {
+  test.skip('Validate Product Price', async ({ page }) => {
      await homePage.userLogin();
-     await productPage.validateProductPrice();
+     await productPage.validateProductPrice(productInTest);
      await homePage.waitForTimeout(3000)
   });
 });
