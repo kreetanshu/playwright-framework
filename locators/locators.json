@@ -6,6 +6,7 @@
     },
     "ProductPage" : {
         "bagPack": "text='Sauce Labs Backpack'",
-        "bagPackPrice": "div.inventory_details_price"
+        "bagPackPrice": "div.inventory_details_price",
+        "inventoryItems": "div.inventory_item_name"
     }
 }
