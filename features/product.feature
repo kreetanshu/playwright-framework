@@ -17,5 +17,5 @@ Feature: Product functionality for an e-commerce site
       |Sauce Labs Bolt T-Shirt|
       |Sauce Labs Fleece Jacket|
       |Sauce Labs Onesie|
-      #|Test.allTheThings() T-Shirt (Red)|
+      |Test.allTheThings() T-Shirt (Red)|
     Given I am able to validate a product price

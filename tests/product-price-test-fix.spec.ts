@@ -1,4 +1,4 @@
-import { test, expect } from '../utils/test-base';
+import { test, expect } from '../fixtures/my-fixture';
 
 test.describe('Product Price Test using Fixtures', () => {
 

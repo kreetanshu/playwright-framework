@@ -25,7 +25,7 @@ export class CustomWorld extends World{
     }
 
     async tearDown(){
-        this.page.close();
+        await this.page.close();
         await this.browser.close()
     }
 }

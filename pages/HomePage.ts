@@ -12,8 +12,8 @@ export class HomePage extends BasePage {
     }
 
     async userLogin(){
-      await this.setText(this.homePageLocator.username,'standard_user')
-      await this.setText(this.homePageLocator.password,'secret_sauce')
+      await this.setText(this.homePageLocator.username,`${process.env.APP_USER}`)
+      await this.setText(this.homePageLocator.password,`${process.env.APP_PASSWORD}`)
       await this.click(this.homePageLocator.loginButton)
       await this.waitForTimeout(2000)
       await this.validatePageTitle(this.landingPageTitle)
